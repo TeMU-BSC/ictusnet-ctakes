@@ -1,4 +1,4 @@
-# Pre-annotation dockerized pipeline for the ICTUSnet project
+# Pre-annotation Dockerized Pipeline for the ICTUSnet Project
 
 ## Previous considerations
 
@@ -27,5 +27,5 @@ bsctemu/ictusnet process.sh
 This docker image is available online at docker hub:
 https://hub.docker.com/r/bsctemu/ictusnet
 
-Originally, this docker image was uploaded at:
-https://hub.docker.com/repository/docker/siamakbarzegar/ictusnet
+## Contact
+Siamak Barzegar (siamak.barzegar@bsc.es)

@@ -1,20 +1,16 @@
 FROM taln/freeling:latest
-# FROM python:3
 
-# https://docs.docker.com/engine/reference/builder/#maintainer-deprecated
 # MAINTAINER Siamak Barzegar <siamak.barzegar@bsc.es>
 LABEL maintainer="siamak.barzegar@bsc.es"
 
 RUN wget http://temu.bsc.es/spactes-resources-bin.tar.gz && \
     tar -xzvf spactes-resources-bin.tar.gz && \
     mkdir -p /ICTUSnet/ctakes-SpaCTeS/ && \
-    mv spactes-resources-bin/* /ICTUSnet/ctakes-SpaCTeS/
+    mv spactes-resources-bin/* /ICTUSnet/ctakes-SpaCTeS/ && \
+    rm -rf spactes-resources-bin*
 
 RUN apt-get -qq update && \
     apt-get install -y python3-dev python3-pip python3-tk python3-lxml python3-six
-
-#	rm -rf /spactes-resources-bin && \
-#	rm -rf /spactes-resources-bin.tar.gz && \
 
 RUN	pip3 install unidecode
 

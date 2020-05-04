@@ -14,7 +14,7 @@ echo "Detecting Sections ..."
 export HEADERDETECTOR=/ICTUSnet/HeaderDetector
 python3 $HEADERDETECTOR/scripts/header_detector.py --data $TXT
 
-echo "MErging Variables and Sections ..."
+echo "Merging Variables and Sections ..."
 export BRATMERGER=/ICTUSnet/BratMerger
-python3 $BRATMERGER/scripts/merger.py --data $ANN_SECTION
+python3 $BRATMERGER/script/merger.py --data $ANN_SECTION
 
