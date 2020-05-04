@@ -12,7 +12,7 @@ RUN wget http://temu.bsc.es/spactes-resources-bin.tar.gz && \
 RUN apt-get -qq update && \
     apt-get install -y python3-dev python3-pip python3-tk python3-lxml python3-six
 
-RUN	pip3 install unidecode
+RUN pip3 install unidecode
 
 WORKDIR /ICTUSnet
 
