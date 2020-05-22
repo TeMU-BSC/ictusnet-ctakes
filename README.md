@@ -33,7 +33,7 @@ bash run-docker.sh /full/path/to/your/input/data /full/path/to/your/output/data
 
 ### Method 2: Singularity
 
-For building the Singularity image, once the Docker one has been built (since it is converted using https://github.com/singularityhub/docker2singularity), assuming Singuliraty is installed and Docker is a [non-root user](https://docs.docker.com/engine/install/linux-postinstall/), run:
+For building the Singularity image, once the Docker one has been built (since it is converted using https://github.com/singularityhub/docker2singularity), assuming Singularity is installed and Docker is a [non-root user](https://docs.docker.com/engine/install/linux-postinstall/), run:
 
 ```
 bash build-singularity.sh
