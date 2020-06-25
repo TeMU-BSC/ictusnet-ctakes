@@ -14,5 +14,5 @@ echo "Detecting Sections ..."
 python3 $HEADERDETECTOR/scripts/header_detector.py --input $TXT --output $ANN_SECTION
 
 echo "Merging Variables and Sections ..."
-python3 $BRATMERGER/script/merger.py --data $ANN_SECTION
+python3 $BRATMERGER/src/main.py --data $ANN_SECTION
 
