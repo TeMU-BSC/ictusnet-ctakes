@@ -1,0 +1,13 @@
+sudo bash run-docker.sh /home/siabar/Documents/data/test/09/victoria /home/siabar/Documents/data/test/09/victoria
+sudo bash run-docker.sh /home/siabar/Documents/data/test/09/isabel /home/siabar/Documents/data/test/09/isabel
+sudo bash run-docker.sh /home/siabar/Documents/data/test/09/carmen /home/siabar/Documents/data/test/09/carmen
+sudo bash run-docker.sh /home/siabar/Documents/data/test/09/eugenia /home/siabar/Documents/data/test/09/eugenia
+sudo bash run-docker.sh /home/siabar/Documents/data/test/08/victoria /home/siabar/Documents/data/test/08/victoria
+sudo bash run-docker.sh /home/siabar/Documents/data/test/08/isabel /home/siabar/Documents/data/test/08/isabel
+sudo bash run-docker.sh /home/siabar/Documents/data/test/08/carmen /home/siabar/Documents/data/test/08/carmen
+sudo bash run-docker.sh /home/siabar/Documents/data/test/08/eugenia /home/siabar/Documents/data/test/08/eugenia
+sudo bash run-docker.sh /home/siabar/Documents/data/test/07/victoria /home/siabar/Documents/data/test/07/victoria
+sudo bash run-docker.sh /home/siabar/Documents/data/test/07/isabel /home/siabar/Documents/data/test/07/isabel
+sudo bash run-docker.sh /home/siabar/Documents/data/test/07/carmen /home/siabar/Documents/data/test/07/carmen
+sudo bash run-docker.sh /home/siabar/Documents/data/test/07/eugenia /home/siabar/Documents/data/test/07/eugenia
+
