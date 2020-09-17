@@ -1,0 +1,4 @@
+sudo bash run-docker.sh /home/siabar/Documents/data/test/11/isabel /home/siabar/Documents/data/test/11/isabel
+sudo bash run-docker.sh /home/siabar/Documents/data/test/11/carmen /home/siabar/Documents/data/test/11/carmen
+sudo bash run-docker.sh /home/siabar/Documents/data/test/11/eugenia /home/siabar/Documents/data/test/11/eugenia
+
