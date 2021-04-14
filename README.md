@@ -1,5 +1,9 @@
 # Pre-annotation Dockerized Pipeline for the ICTUSnet Project
 
+This repository contains two different pipelines (tags): 
+  1. bsctemu/ictusnet:ctakes - Initial version based on the Apache cTAKES. 
+  2. bsctemu/ictusnet:deeplearning - Deep Learning version based on transformers. 
+
 ## Previous considerations
 
 - `/full/path/to/your/input/data` is your input directory that should be as below format:
